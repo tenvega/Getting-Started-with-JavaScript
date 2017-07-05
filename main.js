@@ -10,20 +10,20 @@ let givenName;
 
 // 2.
 // What is `givenName` set to right now?
-givenName = "Tim is ";
-// A: a string "Tim"
+givenName = "Tim";
+// A: "Tim"
 
 
 // 3.
 // What is `givenName` set to right now?
 givenName = givenName;
-// A: the variable givenName
+// A: "Tim"
 
 
 // 4.
 // What is `greeting` set to?
 let greeting = "Hello, how are you? " + givenName;
-// A: a string + a variable
+// A: Hello, how are you? Tim.
 
 
 // 5.
@@ -31,13 +31,13 @@ let greeting = "Hello, how are you? " + givenName;
 let high = 50;
 let low  = 10;
 let math = high - low;
-// A: to substract hi from low
+// A: 40
 
 
 // 6.
 // What is `math` set to?
 math = high - "5";
-// A: math equals variable minus string.
+// A: 45.
 
 
 // 7.
@@ -46,9 +46,9 @@ math = high - "5";
 // The answer shoud not be written in a comment.
 let born = 1984;
 let today = 2017;
-// A:
 let sum = givenName +  (born - today) + " years old" ;
 console.log(sum);
+// A:"Tim is-33 years old"
 
 // 8.
 // Adjust this code. Store some information in the following variables.
